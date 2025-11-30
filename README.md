@@ -173,6 +173,11 @@ Response:
 
 ## Screenshot
 
+# Priority
+
+<img width="1272" height="1769" alt="image" src="https://github.com/user-attachments/assets/0d3e8d82-6c4f-4ee6-abd5-181b93d1c977" />
+
+
 # Fastest wins
 
 <img width="1298" height="1762" alt="image" src="https://github.com/user-attachments/assets/a0261d62-e077-4e94-a6da-750d11176d92" />
