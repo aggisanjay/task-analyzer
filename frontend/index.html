@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Task Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Task Analyzer</h1>
+
+<div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="input-panel">
+        <h3>Task Input (JSON)</h3>
+
+<textarea id="taskInput">
+[
+  {"title":"Resume","importance":8,"estimated_hours":2,"due_date":"2025-12-01"},
+  {"title":"Apply Jobs","importance":7,"estimated_hours":3,"due_date":"2025-11-30"},
+  {"title":"DSA Practice","importance":6,"estimated_hours":1}
+]
+</textarea>
+
+        <br>
+
+        <label>Sorting Strategy:</label>
+        <select id="sortMode">
+            <option value="priority">Priority (Default)</option>
+            <option value="fast">Fastest Wins</option>
+            <option value="deadline">Deadline Driven</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="analyzeTasks()">Analyze</button>
+    </div>
+
+
+    <!-- RIGHT PANEL -->
+    <div class="results-panel">
+        <h3>Ranked Tasks</h3>
+        <div id="results"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+
+body {
+    background:#0e0e0e;
+    color:white;
+    font-family: Arial, sans-serif;
+    text-align:center;
+}
+
+h1 {
+    margin-bottom:15px;
+}
+
+.container {
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:20px;
+}
+
+/* PANELS */
+.input-panel,
+.results-panel {
+    width:50%;
+}
+
+/* INPUT */
+textarea {
+    width:95%;
+    height:200px;
+    background:#222;
+    color:#ddd;
+    border:1px solid #555;
+}
+
+select, button {
+    padding:8px;
+    margin-top:10px;
+    background:#333;
+    color:white;
+}
+
+button:hover {
+    background:#555;
+    cursor:pointer;
+}
+
+/* CARDS */
+.card {
+    background:#222;
+    padding:12px;
+    margin:12px 0;
+    text-align:left;
+    border-left:6px solid;
+}
+
+.high { border-color:red; }
+.medium { border-color:orange; }
+.low { border-color:green; }
+
+.score {
+    font-weight:bold;
+    font-size:18px;
+}
